@@ -1,0 +1,7 @@
+git clone https://github.com/ljolik/vsh1.git
+cd vsh1
+echo -e "# vsh1\n\nA simple HTML file." > README.md
+echo -e "<!DOCTYPE html>\n<html>\n<head>\n    <title>My HTML Page</title>\n</head>\n<body>\n    <h1>Hello, HTML world!</h1>\n</body>\n</html>" > index.html
+git add README.md index.html
+git commit -m "Add README and index.html"
+git push origin main
